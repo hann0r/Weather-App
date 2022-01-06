@@ -1,0 +1,112 @@
+.weatherapp {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/493/original/wallpaperuse.com-rainbow-clouds-wallpaper-479736_%281%29.jpg?1639157118");
+}
+.container {
+  margin-top: 60px;
+
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  padding: 2rem;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.summary {
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+.tempNow {
+  font-size: 15px;
+  padding: 4px 8px;
+  transition: all 200ms ease-in-out;
+  font-family: "Balsamiq Sans", cursive;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: solid 1px #20538d;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.submitSearch {
+  padding: 3px 8px;
+  transition: all 200ms ease-in-out;
+  font-family: "Balsamiq Sans", cursive;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: solid 1px #20538d;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.details {
+  width: 60%;
+}
+
+.forecast {
+  display: flex;
+}
+
+.day {
+  border: 1px solid black;
+  height: 100px;
+  flex: 1;
+}
+
+.moreDetails table {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.col {
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem;
+  font-size: 17px;
+  margin-top: 2rem;
+  margin-left: 50px;
+}
+.imageOne {
+  max-width: 60%;
+  height: auto;
+  float: unset;
+  text-align: right;
+  margin: 8px;
+  padding: 5px;
+}
+.resize {
+  width: 100px;
+  height: autopx;
+}
+.body {
+  margin: 0;
+}
+
+.poem {
+  font-family: "Oleo Script", cursive;
+  font-size: 20px;
+}
+.temperature {
+  font-size: 22px;
+}
