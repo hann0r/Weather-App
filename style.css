@@ -85,7 +85,7 @@ button:hover {
   padding: 2rem;
   font-size: 17px;
   margin-top: 2rem;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .imageOne {
   max-width: 60%;
@@ -109,4 +109,9 @@ button:hover {
 }
 .temperature {
   font-size: 22px;
+}
+
+.gitLink {
+  text-align: center;
+  color: black;
 }
