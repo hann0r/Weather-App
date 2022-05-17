@@ -50,9 +50,6 @@ function okSubmit(event) {
   axios.get(apiUrl).then(showTemperature);
 }
 
-let formSearch = document.querySelector("#search-city");
-formSearch.addEventListener("submit", okSubmit);
-
 function currentPosition(position) {
   let apiKey = "f9b144c081d097692afbbd4e19bdc435";
   let units = "metric";
@@ -64,6 +61,8 @@ function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(currentPosition);
 }
+let formSearch = document.querySelector("#search-city");
+formSearch.addEventListener("submit", okSubmit);
 
 let locationBtn = document.querySelector("#temp-now");
 locationBtn.addEventListener("click", getCurrentLocation);
